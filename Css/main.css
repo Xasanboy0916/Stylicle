@@ -20,18 +20,22 @@ a {
   color: #141414;
 }
 .section__title {
-  color: #422a3c;
   text-align: center;
-  width: 768px;
-  height: 116px;
+  color: #422a3c;
   font-size: 45px;
   font-weight: 700;
   line-height: 130%;
   letter-spacing: -1%;
 }
 .section__subtitle {
-  width: 768px;
-  height: 116px;
+  text-align: center;
+  color: #ba7894;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.section__descraption {
+  text-align: center;
   color: #555555;
   font-size: 20px;
   font-weight: 400;
@@ -196,4 +200,20 @@ a {
   padding-top: 10px;
   color: #422a3c;
   font-size: 18px;
+}
+/* Recomended section styles */
+.recomended__cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.recomended__card {
+  width: 384px;
+  height: 536px;
+  border-radius: 24px;
+}
+.recomended__card > img {
+  width: 384px;
+  height: 275px;
+  border-radius: 24px 24px 0 0;
 }
