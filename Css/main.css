@@ -190,7 +190,7 @@ a {
 .bottom__cards {
   display: flex;
   align-items: center;
-  gap: 53px;
+  justify-content: space-between;
   padding-bottom: 50px;
 }
 .bottom__card {
@@ -203,17 +203,59 @@ a {
 }
 /* Recomended section styles */
 .recomended__cards {
+  padding: 50px 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 .recomended__card {
-  width: 384px;
-  height: 536px;
+  width: 256px;
+  height: 370.67px;
   border-radius: 24px;
 }
 .recomended__card > img {
-  width: 384px;
-  height: 275px;
+  width: 256px;
+  height: 183.33px;
   border-radius: 24px 24px 0 0;
+}
+.content {
+  padding: 10px;
+}
+.content__img {
+  display: flex;
+  gap: 5px;
+  color: #ba7894;
+}
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__title {
+  padding: 10px 0;
+  color: #141414;
+  font-size: 24px;
+  font-weight: 700;
+}
+.content__descraption {
+  width: 256px;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+}
+.content__btn {
+  margin-left: 10px;
+  padding: 16px 64px;
+  background: none;
+  border: 1px solid #ba7894;
+  border-radius: 8px;
+  color: #ba7894;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.content__btn:hover {
+  background-color: #ba7894;
+  color: #fff;
 }
