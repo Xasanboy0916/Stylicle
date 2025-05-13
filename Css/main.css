@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
 }
 .container {
   width: 1240px;
@@ -23,7 +23,7 @@ a {
 }
 .section__title {
   text-align: center;
-
+  font-family: "Playfair Display", serif;
   color: #422a3c;
   font-size: 45px;
   font-weight: 700;
