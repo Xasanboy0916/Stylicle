@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  transition: all 0.3s linear;
 }
 .container {
   width: 1240px;
@@ -46,6 +47,11 @@ li {
   border: 1px solid #141414;
   background: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+.section__btn1:hover {
+  background-color: #141414;
+  color: #fff;
 }
 .section__btn2 {
   padding: 14px 24px;
@@ -54,6 +60,10 @@ li {
   background-color: #141414;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
+}
+.section__btn2:hover {
+  opacity: 80%;
 }
 /* header section styles */
 .header {
@@ -492,9 +502,13 @@ li {
   gap: 10px;
   padding-top: 10px;
 }
-/* .services__paragraph--p {
-  padding-top: 25px;
-  width: 234px;
-  font-size: 15px;
-  line-height: 130%;
-} */
+/* footer section setyles */
+.footer {
+  background-color: #160813;
+}
+.footer__wrapper {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
