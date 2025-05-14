@@ -235,6 +235,7 @@ li {
   margin: 20px 0;
 }
 .about__bottom {
+  padding: 50px 0 50px 50px;
   display: flex;
   align-items: center;
   gap: 10px;
