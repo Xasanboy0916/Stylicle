@@ -22,7 +22,6 @@ a {
   color: #141414;
 }
 .section__title {
-  text-align: center;
   font-family: "Playfair Display", serif;
   color: #422a3c;
   font-size: 45px;
@@ -31,7 +30,6 @@ a {
   letter-spacing: -1%;
 }
 .section__subtitle {
-  text-align: center;
   color: #ba7894;
   font-size: 20px;
   font-weight: 400;
@@ -39,12 +37,11 @@ a {
   font-family: "Manrope", sans-serif;
 }
 .section__descraption {
-  text-align: center;
   color: #555555;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
 }
 .section__btn1 {
   padding: 14px 24px;
@@ -277,6 +274,9 @@ a {
 }
 /* about section styles */
 /* Recomended section styles */
+.recomended__top {
+  text-align: center;
+}
 .recomended__cards {
   padding: 50px 0;
   display: flex;
@@ -344,6 +344,7 @@ a {
   background-color: #f0f0f0;
 }
 .testimonials__top {
+  text-align: center;
   padding-bottom: 50px;
 }
 .testimonials__medium {
@@ -384,4 +385,60 @@ a {
 .testimonials__bottom {
   padding: 50px;
   text-align: center;
+}
+/* Mask section styles */
+.mask {
+  background-color: #fff;
+}
+.mask__wrapper {
+  border-radius: 45px;
+  margin: 60px;
+  padding: 20px;
+  width: 1240px;
+  background-color: #ebf3f538;
+}
+.mask__subwrapper {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 46px;
+}
+.mask__left > img {
+  width: 520px;
+  height: 353px;
+}
+.right__content--int {
+  height: 68px;
+  width: 543px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ecbfd3;
+  border-radius: 45px;
+}
+.content__input--text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+.right__content--input {
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+.right__content--btn {
+  margin-right: 10px;
+  width: 144px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: #141414;
+  font-size: 18px;
+  border-radius: 45px;
+}
+.right__content--descraption {
+  padding: 50px 0;
+  line-height: 138%;
 }
